@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.side_option{
+    display: flex;
+    width: fit-content;
+    border-radius: 40px;
+    margin-left: 20%;
+    padding:10px 0;
+    padding-left: 7px;
+    padding-right: 15px;
+    transition: all 0.1s;
+    margin-bottom: 5px;
+}
+
+.side_option:hover{
+    color: var(--twitter-color);
+    background-color: rgb(3, 26, 37);
+    cursor: pointer;
+}
+.icon{
+    color:var(--twitter-background);
+    margin-right: 15px;
+}
+.option_name{
+    color:var(--twitter-background);
+}
+.option_name:hover{
+    color: var(--twitter-color);
+}
+.sideoption--active{
+    color: var(--twitter-color);
+}
+
+@media(max-width:1100px){
+    .option_name{
+        display: none;
+        margin-left: 40%;
+    }
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.userIcon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.tweet{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    justify-content: space-evenly;
+    border-bottom: 1px solid var(--twitter-background);
+}
