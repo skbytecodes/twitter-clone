@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.feed{
+    background-color: black;
+    width: 45%;
+    height: 100vh;
+    border-right: 1px solid var(--twitter-background);
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+h3{
+    color:var(--twitter-background);
+}
+@media(max-width:1100px){
+    .feed{
+        width: 70%;
+    }
+}

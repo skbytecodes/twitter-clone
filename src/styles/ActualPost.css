@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.AP_more, .first_row_data > p, .post, .AP_icon{
+    color: var(--twitter-background);
+}
+p{
+    color: var(--twitter-background);
+}
+.uname{
+    font-weight: 700;
+}
+
+.actualpost{
+    width: 84%;
+
+}
+.firstRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+.first_row_data{
+    display: flex;}
+.tweetIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20%;
+    height: 5vh;
+    margin-top: 10px;
+}
+.comment:hover{
+    background-color: rgb(5, 83, 119);
+    border-radius: 10px;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+.retweet:hover{
+    background-color: green;
+    border-radius: 10px;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+.love:hover{
+    background-color: rgb(138, 16, 36);
+    border-radius: 10px;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+.share:hover{
+    background-color: rgb(5, 83, 119);
+    border-radius: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.post{
+    overflow-wrap: break-word;
+}
+.post_image_div{
+   min-height: 300px;
+   margin-top: 10px;
+}
+.post_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid var(--twitter-background);
+}

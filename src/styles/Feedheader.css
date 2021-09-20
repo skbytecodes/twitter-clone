@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.feedheader{
+    border-bottom: 1px solid var(--twitter-background);
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}

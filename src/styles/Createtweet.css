@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.createtweet{
+    width: 84%;
+}
+.input_text{
+    color:var(--twitter-background);
+    color:var(--twitter-background);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 5px 0;
+    padding-right: 5px;
+    background-color: black;
+}
+
+.public_icon,.access, .icon{
+    color: var(--twitter-color);
+}
+.icon_access:hover{
+    cursor: pointer;
+    background-color: rgb(3, 26, 37);
+    padding-right: 10px;
+}
+.icon:hover{
+    cursor: pointer;
+    background-color: rgb(3, 26, 37);
+    border-radius: 6px;
+}
+.feed_tweetdiv{
+    border-radius: 5px;
+}
+.tweet_btn{
+    background-color: var(--twitter-color);
+    color:var(--twitter-background);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+    font-weight: 800;
+}
+.tweet_btn:hover{
+    cursor: pointer;
+    background-color: rgb(20, 130, 173);
+    transition: all 0.3s;
+}
+.input_emojis_tweet{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: space-between;    
+}
+.input_public{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 18vh;
+    border-bottom: 1px solid var(--twitter-background);
+}
+.icon_access{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+.icon_access:hover{
+    border-radius: 20px;
+}
+.access{
+    color:var(--twitter-background);
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 7px;
+    color: var(--twitter-color);
+}
+.input_image{
+    background-color: black;
+    padding: 5px;
+    border: none;
+    outline: none;
+    color:var(--twitter-background);
+    font-weight: 700;
+}

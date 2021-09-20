@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar_tweet{
+    margin-left: 20%;
+    padding: 10px 80px;
+    background-color: var(--twitter-color);
+    width: fit-content;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+h3{
+    color:var(--twitter-background);
+}
+.sidebar_tweet:hover{
+    background-color: #3996cf;
+}
+@media(max-width:1100px){
+    .sidebar_tweet{
+        margin-left: 20%;
+        padding: 5px 20px;
+    }
+    h3{
+        font-size: 15px;
+    }
+}
